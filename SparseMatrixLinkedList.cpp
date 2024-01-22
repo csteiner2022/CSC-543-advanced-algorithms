@@ -24,7 +24,6 @@ using namespace std;
         public:
         SparseList()
         { head = NULL; }
-        //~SparseList();
         void appendNode(int,int,float);
         void displayList();
     };
@@ -56,6 +55,7 @@ using namespace std;
         }
         else
         {
+            cout << "Linked List Shown using displayList function [Row, Column, Value]\n";
             SparseNode *nodePtr;
             nodePtr = head;
             while (nodePtr)
